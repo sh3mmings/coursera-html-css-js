@@ -5,15 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Module 3 Solution</title>
+    <title>Assignment Solution for Module 3</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+
   </head>
-  
   <body>
 
+    <section class="container-fluid"> <!--start of page container-->
+
+        <nav id="header" class="navbar navbar-default">
+            <div class="navbar-header">
+                <a id="brand-name" class = "navbar-brand" href = "#">Food LLC</a>
+                <div class="btn-group  pull-right">
+                    <button type = "button" class = "btn btn-primary dropdown-toggle visible-xs" data-toggle = "dropdown">
+                      <span class = "glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                      <ul class = "dropdown-menu">
+                         <li><a href = "#">Chicken</a></li>
+                         <li><a href = "#">Beef</a></li>
+                         <li><a href = "#">Sushi</a></li>
+                      </ul>
+                </div>
+            </div>
+        </nav> <!--end of navbar-->
+
+        <div class="row"> <!--start of menu description row-->
+            <div class="col-xs-12">
+                <h1 class="text-center">Our Menu</h1>
+                <section id="paragraph">
+                    <h3 class="text-center">Chicken</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </section>
+            </div>
+        </div> <!--end of menu description row-->
+
+    </section> <!--end of page container..>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

@@ -1,3 +1,14 @@
-.red-text {
-    text-transform: capitalize;
+#paragraph {
+    height: 1000px;
+    background-color: grey;
+}
+
+#header {
+    background-color: grey;
+}
+
+#brand-name {
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
 }
