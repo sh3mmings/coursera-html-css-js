@@ -3,3 +3,24 @@ body {
     color: #000;
     font-family: 'Roboto', sans-serif;
 }
+
+.navbar {
+    background-color: #999999;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    padding-left: 25px
+}
+
+.navbar-brand h1 {
+    margin: 0;
+    color: #000;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.navbar-nav a {
+    text-align: center;
+    font-size: 1.1em
+}
