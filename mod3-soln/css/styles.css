@@ -1,14 +1,54 @@
-#paragraph {
-    height: 1000px;
-    background-color: grey;
+body {
+    font-size 16px;
+    color: #000;
+    background-color: #fff;
+    font-family: 'Roboto Slab', serif;
+    }
+
+#header-nav {
+    background-color: #999999;
+    border-radius: 0;
+    border: #000;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    margin-bottom: 0;
+    height: 65px;
 }
 
-#header {
-    background-color: grey;
+.navbar-brand {
+    padding-left: 35px;
 }
 
-#brand-name {
+.navbar-brand h1 {
+    font-size: 1.5em;
     font-weight: bold;
-    font-size: 24px;
-    color: black;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    /**margin-top: 10px;**/
+}
+
+#nav-list a {
+    text-align: center;
+    color: #000;
+}
+
+.container-header button.navbar-toggle, .icon-bar {
+    border: 2px solid #000;
+}
+
+.divider {
+    border: solid 1px #000;
+}
+
+.container-dropdown {
+    border: 2px solid #000 ;
+    border-top: 0px;
 }

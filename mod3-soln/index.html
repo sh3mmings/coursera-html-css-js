@@ -6,34 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Assignment Solution for Module 3</title>
-
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   </head>
   <body>
 
-    <section class="container-fluid"> <!--start of page container-->
+      <header>
+          <nav id="header-nav" class="navbar navbar-default">
+              <div class="container-header">
+                  <div class="navbar-brand">
+                      <a href="index.html"><h1>Food LLC</h1></a>
+                  </div>
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-button-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                  </button>
+              </div>
+          </nav>
 
-        <nav id="header" class="navbar navbar-default">
-            <div class="navbar-header">
-                <a id="brand-name" class = "navbar-brand" href = "#">Food LLC</a>
-                <div class="btn-group  pull-right">
-                    <button type = "button" class = "btn btn-primary dropdown-toggle visible-xs" data-toggle = "dropdown">
-                      <span class = "glyphicon glyphicon-menu-hamburger"></span>
-                    </button>
-                      <ul class = "dropdown-menu">
-                         <li><a href = "#">Chicken</a></li>
-                         <li><a href = "#">Beef</a></li>
-                         <li><a href = "#">Sushi</a></li>
-                      </ul>
-                </div>
-            </div>
-        </nav> <!--end of navbar-->
+          <!-- start of collapsable button content-->
+          <div class="container-dropdown visible-xs>"
+              <div id="nav-button-collapse" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navnar-nav navbar-right">
+                     <li><a  href="#"><span>Chicken</span></a></li>
+                     <li role="separator" class="divider"></li>
+                     <li><a href="#"><span>Beef</span></a></li>
+                     <li role="separator" class="divider"></li>
+                     <li><a href="#"><span>Sushi</span></a></li>
+               </ul>
+          </div>
+          <!-- end of collapsable button content-->
 
-        <div class="row"> <!--start of menu description row-->
-            <div class="col-xs-12">
+
+      </header>
+
+
+
+
+       <!-- Collect the nav links, forms, and other content for toggling -->
+          <!--div id="collapsable-menu" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+              <li class="divider"></li>
+              <li><a href="#"><h3>Chicken</h3></a></li>
+              <li class="divider"></li>
+              <li><a href="#"><h3>Beef</h3></a></li>
+              <li class="divider"></li>
+              <li><a href="#"><h3>Sushi</h3></a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+
+      <!--</nav> <!--end of navbar-->
+
+    <!--<section class="container-fluid"> <!--start of page container-->
+
+        <!--<div class="row"> <!--start of menu description row-->
+            <!--<div class="col-xs-12">
                 <h1 class="text-center">Our Menu</h1>
                 <section id="paragraph">
                     <h3 class="text-center">Chicken</h3>
@@ -42,7 +73,6 @@
             </div>
         </div> <!--end of menu description row-->
 
-    </section> <!--end of page container..>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
