@@ -8,5 +8,3 @@
 window.helloSpeaker = helloSpeaker;
 
 })(window);
-
-// window.helloSpeaker = helloSpeaker;
